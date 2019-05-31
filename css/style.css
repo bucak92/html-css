@@ -1,0 +1,111 @@
+.wrap {
+  max-width: 1440px;
+/* margin: 0 auto; */
+margin-left: auto;
+margin-right: auto;
+}
+
+.uvod {
+background-color: #000000ba;
+font-family: serif;
+text-align: center;
+padding: 5px;
+
+}
+
+.profile-image{
+text-align: center;
+border-radius: 25px;
+
+}
+
+.experience{
+font-family: serif;
+font-size: 20;
+color: white;
+background-color: #000000ba;
+margin-top: 150px;
+}
+
+.experience h1, ul{
+text-align: center;
+padding-top: 20px;
+}
+
+h1 {
+font-size: 15;
+font-family: arial;
+color: white;
+}
+
+body {
+  background-image: url('../images/body_pic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  font-size: 50;
+  color: white;
+}
+a {
+color: white;
+font-family: arial;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.36);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 200px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.naslov {
+text-align: center;
+background-color: #8080806e;
+margin-top: 100px;
+border-radius: 25px;
+}
+
+.social-media-logo {
+max-width: 50px;
+position: center;
+margin-top: 10px;
+}
+.social-media {
+background-color: rgba(0, 0, 0, 0.36);
+text-align: center;
+
+}
+.contact {
+display: flex;
+justify-content: space-around;
+}
+
+
+.footer{
+bottom: 0;
+left: 0
+}
+
+input{
+margin: 5px;
+font-family: arial;
+}
